@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+[x-cloak] {
+    display: none;
+}
+.animate-scroll {
+    animation-play-state: var(--animation-play-state, running);
+  }
